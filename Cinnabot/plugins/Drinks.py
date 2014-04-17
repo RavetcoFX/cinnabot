@@ -9,7 +9,9 @@ DRINKS = [
     ("beer", "pint", "serves"),
     ("martini", "glass", "serves"),
     ("whisky", "glass", "serves"),
-    ("wine", "glass", "serves")
+    ("wine", "glass", "serves"),
+    ("water", "glass", "pours"),
+    ("hot coco", "mug", "serves")
 ]
 
 class DrinksPlugin(BasePlugin):
